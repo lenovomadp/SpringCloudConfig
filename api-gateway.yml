@@ -1,8 +1,5 @@
 
-server:
-  port: 8081
+server.port=8081
 
-zuul:
-  routes:
-    im-service: /im/**
-    serviceId: im-service
+zuul.routes.im-service=/im/**
+    
