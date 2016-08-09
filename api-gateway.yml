@@ -1,0 +1,4 @@
+zuul:
+  routes:
+    im-service: /im/**
+    serviceId: im-service
