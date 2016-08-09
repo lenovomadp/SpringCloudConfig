@@ -1,0 +1,10 @@
+#zuul
+zuul:
+  routes:
+     im-service:
+      path: /im/**
+      serviceId: im-service
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.web: INFO      
