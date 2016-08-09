@@ -2,9 +2,8 @@
 zuul:
   ignored-services: "*"
   routes:
-     im-service:
-      path: /im/**
-      serviceId: im-service
+     im-service:  /im/**
+    
 logging:
   level:
     ROOT: INFO
